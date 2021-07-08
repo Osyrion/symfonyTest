@@ -20,7 +20,7 @@ Start your MySQL/MariaDB, and then run this in command line:
 php bin/console doctrine:database:create
 ```
 
-Database testDB is now created! Now, migrate table schema to testDB and create table:
+Database 'example' is now created! Now, migrate table schema to 'example' DB and create table:
 ```
 php bin/console doctrine:migrations:migrate
 ```
