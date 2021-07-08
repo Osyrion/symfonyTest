@@ -1,0 +1,31 @@
+User registration project (no api)
+=============
+(Windows)
+
+## Requirements:
+- Composer
+- MySQL/MariaDB 
+- Symfony (downloadable from: http://symfony.com/download)
+- web browser
+
+## Install:
+
+Start your MySQL/MariaDB, and then run this in command line:
+```
+php bin/console doctrine:database:create
+```
+
+Database testDB is now created! Now, migrate table schema to testDB and create table:
+```
+php bin/console doctrine:migrations:migrate
+```
+
+Finally, start server with this command:
+```
+symfony server:start --no-tls
+```
+
+If All done, project is available on:
+```
+http://localhost:8000/
+```
