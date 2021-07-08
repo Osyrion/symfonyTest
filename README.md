@@ -2,7 +2,6 @@ User registration project (no api)
 =============
 User registration to database via registration form and printout all users to list
 
-(Windows)
 
 ## Requirements:
 - Composer
