@@ -32,5 +32,5 @@ symfony server:start --no-tls
 
 If All done, project is available on:
 ```
-http://localhost:8000/
+http://localhost:8000/user
 ```
