@@ -3,7 +3,6 @@ User registration project (no api)
 (Windows)
 
 ## Requirements:
-- Composer
 - MySQL/MariaDB 
 - Symfony (downloadable from: http://symfony.com/download)
 - web browser
